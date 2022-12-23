@@ -1,0 +1,99 @@
+@media only screen and (max-width:1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(235, 232, 232);
+    }
+
+    .nav_bar {
+        display: flex;
+        background-color: rgb(15, 24, 37);
+        color: white;
+        font-family: 'PT Serif', serif;
+        flex-direction: column;
+        height: auto;
+
+
+    }
+
+    .li {
+        display: inline-block;
+    }
+
+    .search_bar {
+        width: 579px;
+        margin-right: 12px;
+        border-radius: 4px;
+        height: 35px;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .sign_in {
+        position: relative;
+        top: 10px;
+    }
+
+    .cart {
+        position: relative;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width:886px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(235, 232, 232);
+    }
+
+    .nav_bar {
+        display: flex;
+        background-color: rgb(15, 24, 37);
+        color: white;
+        font-family: 'PT Serif', serif;
+        flex-direction: column;
+        height: auto;
+
+
+    }
+
+    .li {
+        display: inline-block;
+    }
+
+    .search_bar {
+        width: 579px;
+        margin-right: 12px;
+        border-radius: 4px;
+        height: 35px;
+        position: relative;
+    }
+
+    .nav_bar_2 {
+        height: auto;
+    }
+
+    .home_decors {
+        background-color: white;
+        position: relative;
+        bottom: 0px;
+    }
+
+}
+
+@media only screen and (max-width:630px) {
+    .search_bar {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .search_bar {
+        width: 70vw;
+    }
+
+    .ul {
+        padding-bottom: 0px;
+    }
+}
